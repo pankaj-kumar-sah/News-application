@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/mrgn_20"
+        android:layout_marginStart="@dimen/mrgn_10"
+        android:layout_marginEnd="@dimen/mrgn_10"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/mrgn_10"
+            android:layout_marginEnd="@dimen/mrgn_10"
+            android:layout_marginTop="@dimen/mrgn_10"
+android:layout_marginBottom="@dimen/mrgn_10"            >
+
+            <EditText
+                android:id="@+id/search_ET"
+                android:layout_width="@dimen/wdth_270"
+                android:layout_height="@dimen/ht_44"
+                android:background="@null"
+                android:hint="@string/dogecoin_to_the_moon"
+                android:imeOptions="actionSearch"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingLeft="@dimen/mrgn_10"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:layout_width="@dimen/ht_44"
+                android:layout_height="@dimen/ht_44"
+                android:layout_toRightOf="@id/search_ET"
+                android:padding="@dimen/mrgn_10"
+                android:src="@drawable/ic_search_icon" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/tab_spacing_half"
+        >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/secondPageTabs"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wdth_33"
+            app:tabBackground="@drawable/tab_select_background"
+            app:tabGravity="fill"
+            app:tabIndicatorHeight="@dimen/mrgn_0"
+            app:tabPaddingStart="@dimen/mrgn_20"
+            app:tabPaddingEnd="@dimen/mrgn_20"
+            app:tabInlineLabel="true"
+            android:fillViewport="false"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextAppearance="@style/TextAppearance"
+            app:tabTextColor="@color/black" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mrgn_25"
+        android:layout_marginBottom="@dimen/mrgn_10"
+        android:layout_marginLeft="@dimen/mrgn_10"
+        android:text="@string/about_13_200_50_lakh_corona_variant"
+        android:textSize="@dimen/txt_18"
+        android:textStyle="bold"/>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/secondPageTabViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">News Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="latest_news">Latest News</string>
+    <string name="see_full">See full</string>
+    <string name="finance_minister_nirmala_sitharaman_while_presenting_the_budget_today_said_the_union_budget_2022_23_will_lay_the_foundation">Finance Minister Nirmala Sitharaman, while presenting the budget today, said the Union Budget 2022-23 will lay the foundation</string>
+    <string name="dogecoin_to_the_moon">Dogecoin to the moon</string>
+    <string name="about_13_200_50_lakh_corona_variant">About 13,200,50 lakh corona variant...</string>
+    <string name="leonardo_da_vinci">leonardo da vinci</string>
+    <string name="android_8_0_api_level_26_and_android_support_library_26_introduce_support_for_apis_to_request_fonts_from_a_provider">Android 8.0 (API level 26) and Android Support Library 26 introduce support for APIs to request fonts from a provider</string>
+    <string name="filter">Filter</string>
+    <string name="reset">Reset</string>
+    <string name="sort_by">SORT BY</string>
+    <string name="recommended">Recommended</string>
+    <string name="latest">Latest</string>
+    <string name="most_viewed">Most viewed</string>
+    <string name="channel">Channel</string>
+    <string name="foundation">Foundation</string>
+    <string name="save">save</string>
+    <string name="today_headline_is_related_to_the_election_carrying_out_in_india">Today Headline is related to the Election carrying out in India...</string>
+    <string name="new_york_california">New York,California</string>
+    <string name="_12_july_2018">12, july 2018</string>
+</resources>

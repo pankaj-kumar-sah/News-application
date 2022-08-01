@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/imageViewer_tapbtn"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/mrgn_10"
+    android:layout_height="@dimen/ht_240">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageViewer_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile8"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="@font/new_york_small"
+        android:text="@string/finance_minister_nirmala_sitharaman_while_presenting_the_budget_today_said_the_union_budget_2022_23_will_lay_the_foundation"
+        android:layout_alignBottom="@id/imageViewer_image"
+        android:layout_marginLeft="@dimen/mrgn_10"
+        android:layout_marginBottom="@dimen/mrgn_5"
+        >
+
+
+    </TextView>
+
+    </RelativeLayout>
+</FrameLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/ic_bottom_sheet_dialog_box_bg"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mrgn_5"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/home_indicator" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mrgn_10"
+            android:layout_marginTop="@dimen/mrgn_30"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/filter"
+                android:textSize="@dimen/txt_28"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="@dimen/wdth_90"
+                android:layout_height="@dimen/ht_38"
+                android:layout_marginRight="@dimen/mrgn_10"
+                android:background="@drawable/ic_filter_bg">
+
+                <ImageView
+                    android:layout_width="@dimen/mrgn_10"
+                    android:layout_height="@dimen/ht_14"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/mrgn_8"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/delete" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_margin="4dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/reset"
+                    android:textSize="@dimen/txt_14" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mrgn_20"
+            android:layout_marginTop="@dimen/mrgn_30"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/sort_by"
+                android:textSize="@dimen/txt_18" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mrgn_25"
+            android:layout_marginTop="@dimen/mrgn_10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/nunito"
+                android:text="@string/recommended" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/nunito"
+
+                android:text="@string/latest" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/nunito"
+                android:text="@string/most_viewed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mrgn_25"
+            android:layout_marginTop="@dimen/mrgn_10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/nunito"
+                android:text="@string/channel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/nunito"
+                android:text="@string/foundation" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mrgn_20"
+            android:layout_marginTop="@dimen/mrgn_20"
+            android:layout_marginRight="@dimen/mrgn_30"
+            android:layout_marginBottom="@dimen/mrgn_40">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/idBtnDismiss"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ht_48"
+                android:background="@drawable/ic_dialog_box_btn_bg"
+                android:text="@string/save"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

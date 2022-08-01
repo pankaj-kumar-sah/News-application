@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdPageActivity">
+
+    <ImageView
+        android:id="@+id/thirdpageImage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ht_380"
+        android:src="@drawable/newsimage2"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/newspaper2"
+        android:scaleType="fitXY"
+        android:layout_marginTop="@dimen/ht_380"
+        />
+
+    <ImageView
+        android:id="@+id/thirdPageBackbtn"
+        android:layout_width="@dimen/mrgn_40"
+        android:layout_height="@dimen/mrgn_40"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"
+        android:layout_marginLeft="@dimen/mrgn_20"
+        android:layout_marginTop="@dimen/mrgn_10"
+        android:padding="@dimen/pad_7"
+        android:background="@drawable/ic_back_arrow_bg"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ht_141"
+        android:src="@drawable/ic_headline_transparent_bg"
+        android:layout_marginLeft="@dimen/mrgn_40"
+        android:layout_marginRight="@dimen/mrgn_40"
+        android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/leonardo_da_vinci"
+            android:textStyle="bold"
+            android:textSize="@dimen/txt_14"
+            android:textColor="@color/black"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="@dimen/mrgn_20"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/mrgn_55"
+            android:textSize="@dimen/txt_14"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/mrgn_50"
+            android:layout_marginRight="@dimen/mrgn_50"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/mrgn_5"
+            android:text="@string/android_8_0_api_level_26_and_android_support_library_26_introduce_support_for_apis_to_request_fonts_from_a_provider"/>
+
+    </FrameLayout>
+</FrameLayout>

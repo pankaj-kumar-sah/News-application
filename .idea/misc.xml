@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/bg_search.xml" value="0.1145" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/bottom_nav_color_selector.xml" value="0.1" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/bottom_nav_item_color.xml" value="0.1" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/bottomsheet_bg.xml" value="0.12" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_arrow_back.xml" value="0.101" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_arrow_forward.xml" value="0.101" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_back_arrow_bg.xml" value="0.101" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.101" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1285" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_bell_notification.xml" value="0.1145" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_bottom_nav_bg.xml" value="0.1" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_bottom_nav_bg1.xml" value="0.1" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_bottom_profile.xml" value="0.1145" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_bottom_sheet_bg.xml" value="0.18" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_bottom_sheet_dialog_box_bg.xml" value="0.1285" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_chips.xml" value="0.1145" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_dialog_box_bg.xml" value="0.1285" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_dialog_box_btn_bg.xml" value="0.1285" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_filter_bg.xml" value="0.1145" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_floatingbtn.xml" value="0.1145" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_headline_transparent_bg.xml" value="0.1" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_pageviewer_image_bg.xml" value="0.101" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_recyclerview_image_bg.xml" value="0.1" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_savebtn_bg.xml" value="0.1145" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_search_1.xml" value="0.1285" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_searchview_bg.xml" value="0.1145" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_tab_select_bg.xml" value="0.101" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_tab_unselect_bg.xml" value="0.1145" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_third_page_details_bg.xml" value="0.101" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_uncoloured_chips.xml" value="0.1145" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/tab_selec_background.xml" value="0.1" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/tab_select_background.xml" value="0.101" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/font-v26/new_york_small.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/font/_big.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/font/font_family_names.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/font/new_york_small.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/font/nunito.xml" value="0.1015625" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/activity_second.xml" value="0.25" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/activity_third_page.xml" value="0.22" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/contentlayout.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/fragment_arts.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/fragment_healthy.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/fragment_second_page.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/fragment_third_page.xml" value="0.14" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/fragment_view_pager1.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/healthy_row.xml" value="0.22" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/imageviewer.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/menu/bottom_nav_menu.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/psah/AndroidStudioProjects/NewsApplication/app/src/main/res/menu/second_page_nav_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

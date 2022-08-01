@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ht_128"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/mrgn_10"
+    android:layout_margin="@dimen/mrgn_5">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/healthyRecyclerImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/scenary"
+        android:scaleType="centerCrop"
+        />
+
+        <TextView
+            android:id="@+id/healthyTitleTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/today_headline_is_related_to_the_election_carrying_out_in_india"
+            android:textColor="@color/white"
+            android:fontFamily="@font/new_york_small"
+            android:textSize="@dimen/txt_16"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/mrgn_10"
+            android:layout_marginEnd="@dimen/mrgn_10"/>
+        <TextView
+            android:id="@+id/healthySubtitleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_york_california"
+            android:fontFamily="@font/nunito"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/mrgn_5"
+            android:layout_marginStart="@dimen/mrgn_10"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_12_july_2018"
+            android:fontFamily="@font/nunito"
+            android:textColor="@color/white"
+            android:layout_gravity="end"
+            android:layout_marginRight="@dimen/mrgn_5"
+            android:layout_marginTop="@dimen/mrgn_100"/>
+
+
+    </FrameLayout>
+</androidx.cardview.widget.CardView>
